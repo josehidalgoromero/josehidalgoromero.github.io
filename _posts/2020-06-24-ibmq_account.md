@@ -5,10 +5,11 @@ Para ello podemos usar los que IBM nos pone a nuestra disposición. Sólo nos ha
 
 ## Obtener un token para IBM-Q
 
-![](/images/ibmq-my-account.png "IBMQ My Account")
-
 1. Entra en la web de [IBM-Q](https://quantum-computing.ibm.com/login) y create una cuenta (si no la tienes ya).
 2. Haz click en 'My Account'
+
+![](/images/ibmq-my-account.png "IBMQ My Account")
+
 3. Haz click en **Copy token**
 
 ![](/images/ibmq-copy-token.png "IBMQ copy token")
