@@ -1,3 +1,5 @@
-# Your blog
+# Links de interés
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+* [Anaconda Navigator](https://www.anaconda.com/)
+* [IBM Quantum](https://quantum-computing.ibm.com/)
+* [QISKit](https://qiskit.org/documentation/index.html)
