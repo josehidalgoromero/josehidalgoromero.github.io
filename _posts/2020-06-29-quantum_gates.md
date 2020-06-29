@@ -52,7 +52,7 @@ statevector = result.get_statevector()
 plot_bloch_multivector(statevector)
 ```
 
-![](/images/plot_bloch_multivector.png "Representación esférica de qubit")
+![](/images/plot-bloch-multivector.png "Representación esférica de qubit")
 
 Podemos ver la representación matricial de la transformación aplicada al estado del qubit de la siguiente forma:
 
