@@ -1,4 +1,4 @@
-# Teletransporte (de valores) cuántico
+# Teletransporte cuántico (de valores)
 
 Vamos a ver una funcionalidad trivial en ordenadores clásicos que, debido a la naturaleza cuántica, no es tan trivial en los ordenadores cuánticos: el copiado de valores.
 Esta asignación de valores no es posible hacerla en computación cuántica ya que, para ello, es necesario observar el valor del qubit que queremos copiar y, al hacerlo, destruímos su estado por lo que no podremos copiarlo.
