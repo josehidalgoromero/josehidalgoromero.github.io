@@ -122,7 +122,7 @@ Y la puerta Z haría algo así:
 
 ## Comprobación del resultado
 
-Vamos a comprobar que realmente el estado del qubit 0 (que recordamos que es |1> tras la aplicación de la puerta X al comienzo del circuito) se ha teletransportado al qubit 2.
+Vamos a comprobar que realmente el estado del qubit 0 (que recordamos que es `|1>` tras la aplicación de la puerta X al comienzo del circuito) se ha teletransportado al qubit 2.
 
 Aplicamos la medida sobre el qubit 2 y ejecutamos la simulación del circuito.
 
