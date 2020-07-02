@@ -32,7 +32,7 @@ circuit.draw(output='mpl')
 
 ![](/images/empty_circuit_3_3.png "Circuito vacio")
 
-La idea es, partiendo del estado |0> del qubit 0, modificar su estado al valor |1> y transportarlo al qubit 2 usando las puertas que hemos visto hasta ahora.
+La idea es, partiendo del estado `|0>` del qubit 0, modificar su estado al valor `|1>` y transportarlo al qubit 2 usando las puertas que hemos visto hasta ahora.
 
 ## Asignando estado al qubit 0
 
@@ -61,10 +61,10 @@ circuit.cx(1,2)
 
 ![](/images/teleportation_protocol_1.png "Paso 1 de algoritmo de teletransporte")
 
-Aplicar una puerta H al qubit 1 provocará que tenga un estado de superposición, es decir, que tenga la misma probabilidad de tener el estado |0> que el estado |1>.
+Aplicar una puerta H al qubit 1 provocará que tenga un estado de superposición, es decir, que tenga la misma probabilidad de tener el estado `|0>` que el estado `|1>`.
 
 La puerta CX puede funcionar de 2 maneras: como una puerta de control, en el que el primer qubit indicado hace de control y el segundo de objetivo. 
-En este caso se aplica una inversión del valor del qubit objetivo cuando el qubit de control valga |1>. Es decir:
+En este caso se aplica una inversión del valor del qubit objetivo cuando el qubit de control valga `|1>`. Es decir:
 
 | qubit 0 | qubit 1 (antes de puerta CX) | qubit 1 (después de puerta CX) |
 |-|-|-|
@@ -110,7 +110,7 @@ circuit.draw(output='mpl')
 
 ![](/images/teleportation_protocol_3.png "Paso 3 de algoritmo de teletransporte")
 
-La aplicación de la puerta CX ya la conocemos. La puerta CZ varia el estado |+> a |-> y viceversa, si el qubit de control es |1>.
+La aplicación de la puerta CX ya la conocemos. La puerta CZ varia el estado `|+>` a `|->` y viceversa, si el qubit de control es `|1>`.
 
 Si vemos el estado del qubit como una esfera, como mostramos en el post anterior, la puerta X haría algo así (La puerta Y haría lo mismo que la puerta X pero pivotando sobre el eje Y en lugar de sobre el X):
 
